@@ -1,5 +1,5 @@
 body{
-    color: rgb(108, 37, 122);
+    color: rgb(255, 255, 255);
     background: radial-gradient(ellipse at bottom, rgb(97, 255, 150), rgb(168, 227, 255));
 }
 
@@ -17,6 +17,7 @@ body{
         text-align: center;
     }
     h1{
+        color: rgb(167, 79, 202);
         font-family: 'Petit Formal Script', cursive;
         background: rgb(161, 255, 168);
         padding: 1rem 1rem 1rem 1rem;
@@ -25,6 +26,7 @@ body{
         background: rgb(145, 31, 75);
         margin-top: 1rem;
         padding: 1rem 1rem 1rem 1rem;
+        
         
     }
     .div3 { grid-area: 2 / 2 / 3 / 5;
