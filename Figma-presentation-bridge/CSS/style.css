@@ -54,16 +54,25 @@ body{
         background: black;
         padding: 1rem 1rem 1rem 1rem;
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
-
         width: 80%;
         justify-self: center;
     }
+        #live-audio-title{
+            background: rgb(88, 19, 19);
+            padding: 1rem;
+        }
+
     .div5 { grid-area: 4 / 2 / 5 / 5;
         background: gray;
         padding: 1rem 1rem 1rem 1rem;
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
         width: 40%;
         justify-self: left;
+    }
+    #settings-audio-main{
+        background: linear-gradient(black, rgb(49, 49, 49));
+        padding: 1rem;
+        box-shadow: 1px 1px 1px;
     }
     .div6 { grid-area: 4 / 4 / 5 / 5;
         text-align: center;
