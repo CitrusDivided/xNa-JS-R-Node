@@ -1,6 +1,6 @@
 body{
     color: rgb(255, 255, 255);
-    background: radial-gradient(ellipse at bottom, rgb(97, 255, 150), rgb(168, 227, 255));
+    background: radial-gradient(ellipse at top, rgb(97, 255, 150), rgb(168, 227, 255));
 }
 
 .parent {
@@ -39,12 +39,15 @@ body{
     .div4 { grid-area: 3 / 2 / 4 / 5;
         background: black;
         padding: 1rem 1rem 1rem 1rem;
+        box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
+
         width: 80%;
         justify-self: center;
     }
     .div5 { grid-area: 4 / 2 / 5 / 5;
         background: gray;
         padding: 1rem 1rem 1rem 1rem;
+        box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
         width: 80%;
         justify-self: center;
     }
