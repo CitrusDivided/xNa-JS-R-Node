@@ -23,6 +23,7 @@ body{
     }
     .div2 { grid-area: 2 / 2 / 5 / 5;
         background: rgb(145, 31, 75);
+        margin-top: 1rem;
         padding: 1rem 1rem 1rem 1rem;
         
     }
@@ -30,6 +31,7 @@ body{
         background: rgb(255, 67, 161);
         padding: 1rem 1rem 10rem 1rem;
         width: 80%;
+        box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
         justify-self: center;
     }
     .div4 { grid-area: 3 / 2 / 4 / 5;
@@ -55,20 +57,20 @@ body{
         background: burlywood;
     }
     .div8 { grid-area: 2 / 5 / 5 / 6;
-        background: rgba(0, 0, 0, 0.692);
-        width: 40%;
+        background: rgba(0, 0, 0, 0.075);
+        width: 80%;
         justify-self: center;
         height: 200%;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
     }
     .div9 { grid-area: 2 / 1 / 5 / 2;
-        background: rgba(0, 0, 0, 0.692);
-        width: 40%;
+        background: rgba(0, 0, 0, 0.075);
+        width: 80%;
         justify-self: center;
         height: 200%;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
     }
