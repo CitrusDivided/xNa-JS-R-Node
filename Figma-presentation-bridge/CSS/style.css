@@ -16,26 +16,37 @@ body{
         padding: 1rem 1rem 1rem 1rem;
         text-align: center;
     }
-    h1{
-        color: rgb(167, 79, 202);
-        font-family: 'Petit Formal Script', cursive;
-        background: rgb(161, 255, 168);
-        padding: 1rem 1rem 1rem 1rem;
+        h1{
+            color: rgb(167, 79, 202);
+            font-family: 'Petit Formal Script', cursive;
+            background: rgb(161, 255, 168);
+            padding: 1rem 1rem 1rem 1rem;
+    }
+        h2{
+            font-size: 1rem;
+            color: rgb(134, 255, 160);
+            font-family: 'Petit Formal Script', cursive;
     }
     .div2 { grid-area: 2 / 2 / 5 / 5;
         background: rgb(145, 31, 75);
         margin-top: 1rem;
+        height: 125%;
         padding: 1rem 1rem 1rem 1rem;
         
         
     }
     .div3 { grid-area: 2 / 2 / 3 / 5;
         background: rgb(255, 67, 161);
+        border: 1px solid rgb(255, 116, 186);
         padding: 1rem 1rem 10rem 1rem;
         width: 80%;
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
         justify-self: center;
     }
+        .Emotion-shuffler{
+            background: rgb(109, 31, 79);
+            padding: 1rem 1rem 1rem 1rem;
+        }
     .div4 { grid-area: 3 / 2 / 4 / 5;
         background: black;
         padding: 1rem 1rem 1rem 1rem;
@@ -54,8 +65,8 @@ body{
     .div6 { grid-area: 4 / 4 / 5 / 5;
         text-align: center;
         background: radial-gradient(rgb(221, 84, 255), rgb(91, 101, 255));
-        border: 1px rgb(255, 255, 255) solid;
-        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.212), 0px 0px 10px 0px rgb(136, 255, 136) inset;
+        border: 1px rgb(79, 176, 255) solid;
+        box-shadow: 0px 10px 10px 0px rgba(239, 60, 255, 0.212), 0px 0px 10px 0px rgb(136, 255, 136) inset;
         border-radius: 110%;
     }
     .div7 { grid-area: 5 / 2 / 6 / 5;
@@ -78,4 +89,8 @@ body{
         border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
+    }
+
+    li{
+        list-style-type: none;
     }
