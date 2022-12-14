@@ -70,6 +70,12 @@ body{
         height: 40%;
         justify-self: left;
     }
+    #audio-device{
+        color: rgb(255, 255, 255);
+        margin-top: 0.5rem;
+        background: linear-gradient(black, gray);
+        box-shadow: 1px 1px 1px black, 1px 1px 1px rgba(255, 255, 255, 0.178) inset;
+    }
     #settings-audio-main{
         background: linear-gradient(black, rgb(49, 49, 49));
         padding: 1rem;
