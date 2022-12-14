@@ -17,32 +17,49 @@ body{
         text-align: center;
     }
     .div2 { grid-area: 2 / 2 / 5 / 5;
-        background: blue;
+        background: rgb(145, 31, 75);
+        padding: 1rem 1rem 1rem 1rem;
         
     }
     .div3 { grid-area: 2 / 2 / 3 / 5;
-        background: white;
+        background: rgb(255, 67, 161);
+        padding: 1rem 1rem 10rem 1rem;
+        width: 80%;
+        justify-self: center;
     }
     .div4 { grid-area: 3 / 2 / 4 / 5;
         background: black;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 80%;
+        justify-self: center;
     }
     .div5 { grid-area: 4 / 2 / 5 / 5;
         background: gray;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 80%;
+        justify-self: center;
     }
     .div6 { grid-area: 4 / 4 / 5 / 5;
         text-align: center;
-        background: brown;
+        background: radial-gradient(red, blue);
         border: 1px rgb(255, 255, 255) solid;
-        box-shadow: 1px 1px 1px black;
+        box-shadow: 1px 1px 1px black, 0px 0px 10px 0px white inset;
         border-radius: 150%;
     }
     .div7 { grid-area: 5 / 2 / 6 / 5;
         background: burlywood;
     }
     .div8 { grid-area: 2 / 5 / 5 / 6;
-        background: yellow;
+        background: rgba(0, 0, 0, 0.692);
+        height: 200%;
+        border-radius: 2rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
     }
     .div9 { grid-area: 2 / 1 / 5 / 2;
-        background: yellow;
+        background: rgba(0, 0, 0, 0.692);
         height: 200%;
+        border-radius: 2rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
     }
