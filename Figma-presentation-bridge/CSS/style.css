@@ -11,8 +11,8 @@ body{
     grid-row-gap: 1rem;
     }
     
-    .div1 { grid-area: 1 / 2 / 2 / 5; 
-        background: rgba(43, 189, 121, 0.925);
+    .div1 { grid-area: 1 / 1 / 2 / 6;
+        background: linear-gradient(rgba(189, 43, 140, 0.425), rgba(255, 0, 98, 0.596));
         padding: 1rem 1rem 1rem 1rem;
         height: min-content;
         text-align: center;
@@ -20,7 +20,8 @@ body{
         h1{
             color: rgb(167, 79, 202);
             font-family: 'Petit Formal Script', cursive;
-            background: rgb(161, 255, 168);
+            background: radial-gradient(ellipse at center, rgba(174, 174, 255, 0.534),rgba(12, 66, 66, 0.295));
+            box-shadow: 1px 1px 1px 1px black, 0px 0px 50px 1px rgb(255, 104, 217) inset;
             padding: 1rem 1rem 1rem 1rem;
     }
         h2{
