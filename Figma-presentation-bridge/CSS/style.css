@@ -1,6 +1,6 @@
 body{
     color: rgb(255, 255, 255);
-    background: radial-gradient(ellipse at top, rgb(97, 255, 150), rgb(56, 80, 92));
+    background: linear-gradient( rgb(0, 11, 32), rgb(131, 0, 28));
 }
 
 .parent {
