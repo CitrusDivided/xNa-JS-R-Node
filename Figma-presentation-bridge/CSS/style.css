@@ -18,7 +18,8 @@ body{
         text-align: center;
     }
         h1{
-            color: rgb(167, 79, 202);
+            width: ma;
+            color: rgb(49, 20, 61);
             font-family: 'Petit Formal Script', cursive;
             background: radial-gradient(ellipse at center, rgba(174, 174, 255, 0.534),rgba(12, 66, 66, 0.295));
             box-shadow: 1px 1px 1px 1px black, 0px 0px 50px 1px rgb(255, 104, 217) inset;
@@ -91,8 +92,15 @@ body{
         
     }
     .div7 { grid-area: 5 / 2 / 6 / 5;
+        color: rgb(34, 26, 16);
+        margin-top: 1rem;
+        border-top: 2px dashed rgb(150, 137, 63);
         background: burlywood;
     }
+        #user-sesh-login{
+            padding: 1rem;
+            background: rgb(165, 129, 100);
+        }
     .div8 { grid-area: 2 / 5 / 5 / 6;
         background: rgba(0, 0, 0, 0.075);
         width: 80%;
