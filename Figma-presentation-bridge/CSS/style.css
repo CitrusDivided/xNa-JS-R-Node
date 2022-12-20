@@ -2,6 +2,7 @@ body{
     color: rgb(255, 255, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient( rgb(0, 11, 32), rgb(131, 0, 28));
+    overflow-x: hidden;
 }
 
 .parent {
@@ -19,7 +20,6 @@ body{
         text-align: center;
     }
         h1{
-            width: ma;
             color: rgb(49, 20, 61);
             font-family: 'Petit Formal Script', cursive;
             background: radial-gradient(ellipse at center, rgba(174, 174, 255, 0.534),rgba(12, 66, 66, 0.295));
@@ -43,6 +43,8 @@ body{
         background: linear-gradient(black, rgb(66, 35, 51));
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274), 1px 1px 0px 0px rgba(255, 255, 255, 0.055) inset;
         padding: 1rem;
+        height: 100%;
+        width: 100%;
     }
     #audio-device{
         color: rgb(255, 255, 255);
@@ -61,7 +63,9 @@ body{
         background: rgb(77, 62, 43);
         padding: 1rem 1rem 1rem 1rem;
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
-        justify-self: center;
+        justify-self: right;
+        width: 100%;
+        height: 100%;
     }
         #user-sesh-login{
             padding: 1rem;
@@ -78,12 +82,13 @@ body{
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274), 0px 0px 1px 0px white inset;
     }
 
-    .div6 { grid-area: 3 / 2 / 4 / 5;
+    .div6 { grid-area: 3 / 2 /  4 / 5;
         color: rgb(37, 6, 6);
         text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.082);
         text-align: center;
         background: linear-gradient(rgb(145, 31, 75), rgb(255, 119, 119));
         padding: 1rem 1rem 1rem 1rem;
+        
     }
 
         .Emotion-shuffler{
@@ -97,11 +102,11 @@ body{
         color: rgb(255, 251, 245);
         margin-top: 1rem;
         height: 100%;
-        background: rgb(0, 0, 0);
+        background: radial-gradient(ellipse at top, rgb(56, 4, 4), rgb(0, 0, 0));
     }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
-        background: rgba(0, 0, 0, 0.075);
+        background: rgb(255, 255, 255);
         border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
@@ -123,4 +128,7 @@ body{
     li{
         list-style-type: none;
         display: inline;
+    }
+    .global-yoink{
+        margin-top: -10rem;
     }
