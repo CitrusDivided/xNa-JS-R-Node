@@ -42,7 +42,6 @@ body{
         background: rgb(255, 67, 161);
         border: 1px solid rgb(255, 116, 186);
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274);
-        justify-self: center;
     }
         .Emotion-shuffler{
             background: rgb(109, 31, 79);
@@ -80,7 +79,6 @@ body{
         text-align: center;
         background: radial-gradient(rgb(221, 84, 255), rgb(91, 101, 255));
         border: 1px rgb(79, 176, 255) solid;
-        border-radius: 200%;
         box-shadow: 0px 10px 10px 0px rgba(239, 60, 255, 0.212), 0px 0px 10px 0px rgb(136, 255, 136) inset;
         
     }
@@ -94,24 +92,21 @@ body{
             padding: 1rem;
             background: rgb(165, 129, 100);
         }
-    .div8 { grid-area: 2 / 5 / 5 / 6;
+    .div8 { grid-area: 6 / 2 / 7 / 5;
         background: rgba(0, 0, 0, 0.075);
-        width: 80%;
-        justify-self: center;
-        height: 200%;
         border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
     }
-    .div9 { grid-area: 2 / 1 / 5 / 2;
+    .div9 { grid-area: 7 / 2 / 8 / 5;
         background: rgba(0, 0, 0, 0.075);
-        width: 80%;
-        justify-self: center;
-        height: 200%;
         border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
     }
+
+    .div10 { grid-area: 6 / 1 / 8 / 2; }
+    .div11 { grid-area: 6 / 5 / 8 / 6; }
 
     li{
         list-style-type: none;
