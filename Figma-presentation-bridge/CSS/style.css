@@ -6,7 +6,6 @@ body{
 
 .parent {
     display: grid;
-    display: grid;
     grid-template-columns: 0.8fr repeat(3, 1fr) 0.8fr;
     grid-template-rows: 1fr 0.3fr repeat(3, 1fr) repeat(2, 0.3fr);
     grid-column-gap: 0px;
@@ -80,13 +79,18 @@ body{
     }
 
     .div6 { grid-area: 3 / 2 / 4 / 5;
+        color: rgb(37, 6, 6);
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.082);
         text-align: center;
         background: linear-gradient(rgb(145, 31, 75), rgb(255, 119, 119));
         padding: 1rem 1rem 1rem 1rem;
     }
 
         .Emotion-shuffler{
-            background: rgb(109, 31, 79);
+            border-top-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            background: radial-gradient(ellipse at bottom, rgba(182, 50, 50, 0.534), rgba(0, 0, 0, 0.315));
+            box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.253), 1px 1px 1px 1px rgba(36, 0, 0, 0.644) inset;
             padding: 1rem 1rem 1rem 1rem;
         }
     .div7 { grid-area: 4 / 2 / 6 / 5;
