@@ -88,6 +88,8 @@ body{
         text-align: center;
         background: linear-gradient(rgb(145, 31, 75), rgb(255, 119, 119));
         padding: 1rem 1rem 1rem 1rem;
+        border: 1px solid rgb(255, 97, 123);
+        box-shadow: 0px 30px 15px black, 0px 0px 15px 0px rgba(255, 255, 255, 0.432) inset;
         
     }
 
