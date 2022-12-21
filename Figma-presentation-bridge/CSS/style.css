@@ -113,6 +113,8 @@ body{
             height: 50%;
             padding: 1rem;
             margin: 1rem 1rem 1rem 9rem;
+            box-shadow: 0px 10px 5px 5px black, 0px 0px 5px 5px rgba(255, 255, 255, 0.158) inset;
+            border: 1px dashed rgb(131, 0, 0);
         }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
