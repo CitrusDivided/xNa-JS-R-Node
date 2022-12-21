@@ -82,7 +82,7 @@ body{
         box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.274), 0px 0px 1px 0px white inset;
     }
 
-    .div6 { grid-area: 3 / 2 /  4 / 5;
+    .div6 { grid-area:  3 / 2 /  4 / 5;
         color: rgb(37, 6, 6);
         text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.082);
         text-align: center;
@@ -103,9 +103,17 @@ body{
     .div7 { grid-area: 4 / 2 / 6 / 5;
         color: rgb(255, 251, 245);
         margin-top: 1rem;
-        height: 100%;
-        background: radial-gradient(ellipse at top, rgb(56, 4, 4), rgb(0, 0, 0));
+        height: 180%;
+        background: radial-gradient(ellipse at top, rgba(4, 16, 56, 0.514), rgb(0, 0, 0));
     }
+        #placeholder-box-user{
+            background: rgba(255, 0, 0, 0.411);
+            width: 50%;
+            border-radius: 1rem;
+            height: 50%;
+            padding: 1rem;
+            margin: 1rem 1rem 1rem 9rem;
+        }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
         background: rgba(255, 255, 255, 0.233);
