@@ -17,7 +17,10 @@ body{
         background: linear-gradient(rgba(189, 43, 140, 0.425), rgba(255, 0, 98, 0.596));
         padding: 1rem 1rem 1rem 1rem;
         height: min-content;
+        border-radius: 0.5rem;
         text-align: center;
+        box-shadow: 0px 1px 1px 1px black, 0px 1px 1px 1px rgba(255, 79, 79, 0.267) inset;
+        border: 1px dashed rgb(117, 6, 89);
     }
         h1{
             color: rgb(49, 20, 61);
@@ -154,7 +157,7 @@ body{
     /* Global Elements */
 
     .global-yoink{
-        margin-top: -10rem;
+        margin-top: 10rem;
     }
 
     h4{
