@@ -16,7 +16,8 @@ body{
     .div1 { grid-area: 1 / 1 / 2 / 6;
         background: linear-gradient(rgba(189, 43, 140, 0.425), rgba(255, 0, 98, 0.596));
         padding: 1rem 1rem 1rem 1rem;
-        height: min-content;
+        height: 200px;
+        margin: -1rem 10rem 0rem 10rem;
         border-radius: 0.5rem;
         text-align: center;
         box-shadow: 0px 1px 1px 1px black, 0px 1px 1px 1px rgba(255, 79, 79, 0.267) inset;
