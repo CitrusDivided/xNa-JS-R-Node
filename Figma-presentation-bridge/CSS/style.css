@@ -120,6 +120,7 @@ body{
         background: radial-gradient(ellipse at top, rgba(4, 16, 56, 0.514), rgb(0, 0, 0));
     }
         #placeholder-box-user{
+            display: -ms-inline-grid;
             background: rgba(255, 0, 0, 0.411);
             width: 50%;
             border-radius: 1rem;
