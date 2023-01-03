@@ -102,6 +102,7 @@ body{
         background: linear-gradient(rgb(145, 31, 75), rgb(255, 119, 119));
         padding: 1rem 1rem 1rem 1rem;
         border: 1px solid rgb(255, 97, 123);
+        height: 100%;
         box-shadow: 0px 30px 15px black, 0px 0px 15px 0px rgba(255, 255, 255, 0.432) inset;
         
     }
@@ -116,19 +117,11 @@ body{
     .div7 { grid-area: 4 / 2 / 6 / 5;
         color: rgb(255, 251, 245);
         margin-top: 1rem;
-        height: 180%;
+        height: 100%;
         background: radial-gradient(ellipse at top, rgba(4, 16, 56, 0.514), rgb(0, 0, 0));
     }
-        #placeholder-box-user{
-            display: -ms-inline-grid;
-            background: rgba(255, 0, 0, 0.411);
-            width: 50%;
-            border-radius: 1rem;
-            height: 50%;
-            padding: 1rem;
-            margin: 1rem 1rem 1rem 9rem;
-            box-shadow: 0px 10px 5px 5px black, 0px 0px 5px 5px rgba(255, 255, 255, 0.158) inset;
-            border: 1px dashed rgb(131, 0, 0);
+        canvas{
+            
         }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
