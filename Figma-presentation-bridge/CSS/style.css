@@ -3,6 +3,9 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient( rgb(0, 11, 32), rgb(131, 0, 28));
     overflow-x: hidden;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .parent {
@@ -112,7 +115,7 @@ body{
         align-self: center;
         display:flex;
         flex-wrap: wrap;
-        width: 120%;
+        width: 100%;
         color: rgb(37, 6, 6);
         text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.082);
         text-align: center;
@@ -125,6 +128,9 @@ body{
     }
 
         .Emotion-shuffler{
+                    justify-content:center;
+        align-self: center;
+        display:inline;
             border-top-left-radius: 0.5rem;
             border-bottom-right-radius: 0.5rem;
             background: radial-gradient(ellipse at bottom, rgba(255, 137, 137, 0.534), rgba(0, 0, 0, 0.281));
@@ -132,6 +138,9 @@ body{
             padding: 1rem 1rem 1rem 1rem;
         }
     .div7 { grid-area: 4 / 2 / 6 / 5;
+        justify-content:center;
+        align-self: center;
+        display:inline;
         color: rgb(255, 251, 245);
         margin-top: 1rem;
         height: 100%;
@@ -142,10 +151,8 @@ body{
         }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
-        background: rgba(255, 255, 255, 0.233);
-        margin-top: -2rem;
-        margin-bottom: 2rem;
-        width: 50%;
+        background: rgba(255, 42, 42, 0.63);
+        width: 100%;
         border-radius: 0.5rem;
         text-align: center;
         color: rgb(0, 0, 0);
