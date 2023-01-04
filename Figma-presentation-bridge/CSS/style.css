@@ -39,14 +39,16 @@ body{
             font-family: 'Petit Formal Script', cursive;
     }
     .div2 { grid-area: 2 / 2 / 3 / 5;
+        font-size:xx-small;
         text-align: center;
         width: 100%;
         height: 50%;
         align-self: center;
         justify-self: center;
-        background: rgba(0, 0, 0, 0.336);
-        border-radius: 0.5rem;
-        border: 1px dashed rgba(128, 128, 128, 0.192)
+        background: rgb(153, 16, 16);
+        border: 1px dashed rgba(168, 61, 61, 0.671);
+        box-shadow: 1px 1px 1px 1px black, 0px 0px 1px 0px rgb(255, 255, 255) inset;
+        
     }
     .div3 { grid-area: 2 / 1 / 3 / 2;
         align-self: center;
@@ -101,8 +103,8 @@ body{
 
     .div5 { grid-area: 3 / 1 / 6 / 6;
         display:flex;
-        justify-self:normal;
-        align-self: start;
+        justify-self:first baseline;
+        align-self: flex-start;
         height: 40%;
         background: radial-gradient(ellipse at top, rgb(29, 29, 29), rgb(172, 33, 91));
         padding: 1rem 1rem 1rem 1rem;
