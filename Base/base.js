@@ -1,5 +1,5 @@
 // Preconnect - canvas
-var canvas = document.querySelector('canvas');
+// var canvas = document.querySelector('canvas');
 var video = document.getElementById('video');
 var vendorUrl = window.URL || window.webkitURL;
 canvas.width = 1280;
