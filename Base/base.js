@@ -1,6 +1,6 @@
 // Preconnect - canvas
 var canvas = document.querySelector('canvas');
-
+var video = document.getElementById('video');
 canvas.width = 1280;
 canvas.height = 720;
 
