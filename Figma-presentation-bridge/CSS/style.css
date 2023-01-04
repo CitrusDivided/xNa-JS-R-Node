@@ -161,6 +161,9 @@ body{
         color: rgb(0, 0, 0);
     }
     .div9 { grid-area: 7 / 2 / 8 / 5;
+        justify-content: center;
+        align-self: center;
+        display:inline-flex;
         background: rgb(107, 69, 69);
         height: 2rem;
         text-align: center;
