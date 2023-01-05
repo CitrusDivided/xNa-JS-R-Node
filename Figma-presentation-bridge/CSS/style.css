@@ -34,11 +34,12 @@ body{
             display: inline;
             align-self: center;
             justify-self: center;
-            width: 50%;
+            border-radius: 1rem;
+            border: 1px solid rgb(255, 74, 255);
             color: rgb(49, 20, 61);
             font-family: 'Petit Formal Script', cursive;
             background: radial-gradient(ellipse at center, rgba(174, 174, 255, 0.534),rgba(12, 66, 66, 0.295));
-            box-shadow: 1px 1px 1px 1px black, 0px 0px 50px 1px rgb(255, 104, 217) inset;
+            box-shadow: 1px 1px 1px 1px black, 0px 0px 50px 1px rgb(255, 65, 207) inset;
             padding: 1rem 1rem 1rem 1rem;
     }
         h2{
