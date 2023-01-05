@@ -139,7 +139,7 @@ body{
         .Emotion-shuffler{
             justify-content:center;
             align-self: center;
-            display:flex;
+            display:grid;
             border-top-left-radius: 0.5rem;
             border-bottom-right-radius: 0.5rem;
             background: radial-gradient(ellipse at bottom, rgba(255, 137, 137, 0.534), rgba(0, 0, 0, 0.281));
