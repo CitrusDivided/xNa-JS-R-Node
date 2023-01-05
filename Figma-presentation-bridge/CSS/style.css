@@ -112,7 +112,7 @@ body{
 
     .div5 { grid-area: 3 / 1 / 6 / 6;
         display:flex;
-        justify-self:first baseline;
+        justify-self:normal;
         align-self: flex-start;
         height: 40%;
         background: radial-gradient(ellipse at top, rgb(29, 29, 29), rgb(172, 33, 91));
@@ -123,7 +123,7 @@ body{
 
     .div6 { grid-area:  3 / 2 /  4 / 5;
         justify-content:start;
-        align-self: center;
+        align-self:auto;
         display:flex;
         flex-wrap: wrap;
         width: 100%;
@@ -134,7 +134,7 @@ body{
         padding: 1rem 1rem 1rem 1rem;
         border: 1px solid rgb(255, 97, 123);
         height: 100%;
-        box-shadow: 0px 30px 15px black, 0px 0px 15px 0px rgba(255, 255, 255, 0.432) inset;
+        box-shadow: 0px 3px 15px black, 0px 0px 15px 0px rgba(255, 255, 255, 0.432) inset;
         
     }
         .Emotion-shuffler{
