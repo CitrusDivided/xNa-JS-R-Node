@@ -196,6 +196,7 @@ body{
     li{
         list-style-type: none;
         display: inline;
+        justify-self: left;
     }
 
     /* Global Elements */
