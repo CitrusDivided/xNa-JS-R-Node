@@ -143,7 +143,7 @@ body{
             grid-column: span 3;
             border-top-left-radius: 0.5rem;
             border-bottom-right-radius: 0.5rem;
-            background: radial-gradient(ellipse at bottom, rgba(255, 137, 137, 0.534), rgba(0, 0, 0, 0.281));
+            background: radial-gradient(ellipse at bottom, rgb(255, 137, 137), rgba(0, 0, 0, 0.281));
             box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.253), 1px 1px 1px 1px rgba(36, 0, 0, 0.644) inset;
             padding: 1rem 1rem 1rem 1rem;
         }
@@ -154,7 +154,7 @@ body{
         color: rgb(255, 251, 245);
         margin-top: 1rem;
         width: 800px;
-        height: 600px;
+        height: 800px;
         background: radial-gradient(ellipse at top, rgb(4, 16, 56), rgb(0, 0, 0));
     }
         canvas{
@@ -166,8 +166,9 @@ body{
         }
 
     .div8 { grid-area: 6 / 2 / 7 / 5;
+        margin-top: -2.5rem;
         background: rgba(255, 42, 42, 0.63);
-        width: 800px;
+        width: 700px;
         height: 25px;
         border-radius: 0.5rem;
         text-align: center;
@@ -195,8 +196,7 @@ body{
 
     li{
         list-style-type: none;
-        display: inline;
-        justify-self: left;
+        
     }
 
     /* Global Elements */
