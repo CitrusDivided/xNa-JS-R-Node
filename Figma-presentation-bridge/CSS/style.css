@@ -183,9 +183,11 @@ body{
 
     .div10 { grid-area: 4 / 1 / 8 / 2;
         height: 800px;
+        width: 200px;
         background: red;
     }
     .div11 { grid-area: 4 / 5 / 8 / 6;
+        width: 200px;
         background: blue;
     }
 
