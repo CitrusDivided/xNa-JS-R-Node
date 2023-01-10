@@ -181,11 +181,11 @@ body{
         color: rgb(0, 0, 0);
     }
 
-    .div10 { grid-area: 6 / 1 / 8 / 2;
+    .div10 { grid-area: 4 / 1 / 8 / 2;
         height: 800px;
         background: red;
     }
-    .div11 { grid-area: 6 / 5 / 8 / 6;
+    .div11 { grid-area: 4 / 5 / 8 / 6;
         background: blue;
     }
 
